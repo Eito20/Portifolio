@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewort" content="with=device-width, initial-scale=1">
+    <title>Sobre</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!--boxicons link-->
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <!--google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <header>
+        <a href="#" class="logo"><span>H</span>eitor</a>
+    
+        <div class="menu-btn d-md-none" id="menu-btn">
+            <span>MENU</span>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="Sobre.html">Sobre</a></li>
+                <li><a href="Habilidades.html">Habilidades</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <!--home section-->
+    <section class="home">
+    <div class="home-text"> 
+    
+        <h5>Habilidades</h5>
+        <p>Entre as minhas habilidaes estão:</p>
+        <ul>
+            <li><h6>Design de Interface:</h6> Criação de designs intuitivos e visualmente atraentes para websites e aplicações.</li>
+            <li><h6>Ilustração:</h6>Desenvolvimento de ilustrações personalizadas que atendem às necessidades específicas dos projetos.</li>
+            <li><h6>Wireframes e Kits de Interface:</h6>Produção de wireframes detalhados e kits de UI para facilitar o desenvolvimento e a prototipagem.</li>
+            <li>Construção de design de slides e apresentações de logo marca.</li>
+            <li><h6>Criação de Recursos:</h6>Desenvolvimento de recursos visuais e gráficos para melhorar a funcionalidade e a estética de websites.</li>
+            <li><h6>Desenvolvimento de Slides de Apresentação:</h6>Projetos de slides de apresentação impactantes e visualmente eficazes.</li>
+        </ul>
+    </div>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--Custom js file link-->
+        <script src="js/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    
+    <script>
+        document.getElementById('menu-btn').addEventListener('click', function() {
+            const navbar = document.getElementById('navbar');
+            navbar.classList.toggle('d-none'); // Alterna a classe que esconde o menu
+        });
+    </script>
+
+</body>
+</html>
